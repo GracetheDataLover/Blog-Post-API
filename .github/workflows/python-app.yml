@@ -2,7 +2,7 @@ name: Run Blog API (CI Check)
 
 on:
   push:
-    branches: [ mastr ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 
