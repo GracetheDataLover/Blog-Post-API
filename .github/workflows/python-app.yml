@@ -34,7 +34,7 @@ jobs:
 
       - name: Start Blog API
         run: |
-          nohup python app.py &   # Replace 'app.py' with your main file if different
+          nohup python blogAPI.py &   # Replace 'app.py' with your main file if different
           sleep 5
           echo "✅ Blog API started successfully"
 
