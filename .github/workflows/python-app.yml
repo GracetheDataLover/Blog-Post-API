@@ -2,9 +2,9 @@ name: Run Blog API (CI Check)
 
 on:
   push:
-    branches: [ main ]
+    branches: [ mastr ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   run-api:
