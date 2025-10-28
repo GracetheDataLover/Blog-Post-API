@@ -41,7 +41,7 @@ jobs:
       - name: Health check
         run: |
           echo "🔍 Checking if API is responding..."
-          curl -f http://127.0.0.1:8001 || curl -f http://localhost:8001
+          curl -f http://127.0.0.1:8001/blog || curl -f http://localhost:8001/blog
           echo "✅ Health check passed! API is reachable."
 
       - name: Stop API (cleanup)
